@@ -46,6 +46,15 @@
     .container {
       display: grid;
       grid-gap: 20px;
+      grid-template-areas:
+        "W W W W Y Y Y Y"
+        "W W W W Y Y Y Y"
+        "W W W W Y Y Y Y"
+        "W W W W Y Y Y Y"
+    }
+
+    .item3 {
+      grid-column: W-start / W-end;
     }
   </style>
 </body>
