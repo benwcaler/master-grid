@@ -1,18 +1,16 @@
 :root {
   --grey: #343436;
 }
+
 html {
   box-sizing: border-box;
-  font-family: "Lato", "Lucida Grande", "Lucida Sans Unicode", Tahoma,
-    Sans-Serif;
+  font-family: "Lato", "Lucida Grande", "Lucida Sans Unicode", Tahoma, Sans-Serif;
   font-weight: normal;
   color: #272727;
   text-shadow: 0 2px 0 rgba(0, 0, 0, 0.07);
 }
 
-*,
-*:before,
-*:after {
+*, *:before, *:after {
   box-sizing: inherit;
 }
 
@@ -20,12 +18,7 @@ body {
   margin: 0;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
+h1, h2, h3, h4, h5, h6 {
   font-weight: normal;
   margin: 0;
   font-size: 1.5em;
@@ -38,14 +31,14 @@ h6 {
   color: white;
 }
 
-.codepen >* {
-  border:1px solid black;
+.codepen>* {
+  border: 1px solid black;
 }
 
-
 /* Editor! */
+
 .code {
-  display:grid;
+  display: grid;
   grid-template-columns: repeat(3, 1fr);
   background: #1b2b34;
 }
@@ -61,7 +54,7 @@ h6 {
   align-items: center;
   padding: 5px;
   grid-gap: 5px;
-  background: rgba(0,0,0,0.1);
+  background: rgba(0, 0, 0, 0.1);
 }
 
 .editor__code {
@@ -108,7 +101,7 @@ h6 {
   border: 0;
   color: white;
   padding: 10px;
-  border-radius:5px;
+  border-radius: 5px;
   font-size: 15px;
   position: relative;
 }
@@ -128,7 +121,6 @@ h6 {
   left: 3px;
   top: 3px;
 }
-
 
 .settings {
   padding: 5px;
